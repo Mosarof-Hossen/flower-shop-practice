@@ -1,184 +1,192 @@
 /* google-font-link */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 /* google-font-end */
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Lato", sans-serif
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
-
-
-
-.banner-section{
-    background-color: #fceef1;
-   
+.banner-section {
+  background-color: #fceef1;
 }
-.hero-section{
-    max-width: 1440px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.hero-section {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.hero-content{
-    max-width: 50%;
-    padding: 40px 0;
+.hero-content {
+  max-width: 50%;
+  padding: 40px 0;
 }
-.hero-content h1{
-    font-size: 80px;
-    color: #272727;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
+.hero-content h1 {
+  font-size: 80px;
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
-.hero-content p{
-    font-size: 18px;
-    color: #575656;
-    font-family:"Lato";
-    font-weight: 400;
-    line-height: 30px;
-    margin: 20px 0;
+.hero-content p {
+  font-size: 18px;
+  color: #575656;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0;
 }
-.hero-image{
-    
+.hero-image {
 }
-.hero-btn{
-    background-color: #E55473;
-    color: white;
-    font-size: 20px;
-    font-family: "Lato";
-    font-weight: bold;
-    padding: 20px 43px;
-    border-radius: 10px;
-    border: none;
-    transition: 2s;
+.hero-btn {
+  background-color: #e55473;
+  color: white;
+  font-size: 20px;
+  font-family: "Lato";
+  font-weight: bold;
+  padding: 20px 43px;
+  border-radius: 10px;
+  border: none;
+  transition: 2s;
 }
-.hero-btn:hover{
-    background: #0789f3;
-    color: violet;
+.hero-btn:hover {
+  background: #0789f3;
+  color: violet;
 }
 /* hero-section end */
 
 /* feature-section */
-.featur-section{
-     max-width: 1440px;
-     margin: auto;
-     padding: 140px 0;
+.featur-section {
+  max-width: 1440px;
+  margin: auto;
+  padding: 140px 0;
 }
-.heading-container{
-    max-width: 594px;
-    margin: auto;
-    text-align: center;
-    padding: 40px 0;
+.heading-container {
+  max-width: 594px;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
+}
+.heading-text {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.heading-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #969696;
+  margin: 10px 0;
+}
+.feature-images {
+  display: grid;
 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
 }
-.heading-text{
-    font-size: 40px;
-    font-weight: bolder;
+.feature-image-section {
+  width: 100%;
+  height: 538px;
+  padding: 20px 20px 0 20px;
+  background-color: #f2dee7;
+  border-radius: 300px 300px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.heading-p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #969696;
-    margin: 10px 0;
+.image-f {
 }
-.feature-images{
-    display: grid;
-    
-    grid-template-columns: repeat(3,1fr);
-    gap: 80px;
-    
-}
-.feature-image-section{
-    width: 100%;
-    height: 538px;
-    padding: 20px 20px 0 20px;
-     background-color: #f2dee7;
-    border-radius: 300px 300px 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  
-    
-}
-.image-f{
-   
-}
-.f-p{
-    font-size: 24px;
-    text-align: center;
-    color: #272727;
-    font-weight: bold;
-    margin-top: 30px;
-    text-decoration: underline;
+.f-p {
+  font-size: 24px;
+  text-align: center;
+  color: #272727;
+  font-weight: bold;
+  margin-top: 30px;
+  text-decoration: underline;
 }
 /* feature section end */
 
-.review-section{
-    max-width: 1440px;
-     margin: auto;
-     background-color: #f4f4f4;
-     border-radius: 10px;
-     display: flex;
-     justify-content: space-evenly;
-     padding: 60px;
-     text-align: center;
+.review-section {
+  max-width: 1440px;
+  margin: auto;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
+  text-align: center;
 }
-.review-section p{
-    margin-top: 10px;
-    color: #575656;
+.review-section p {
+  margin-top: 10px;
+  color: #575656;
 }
 /* hot-deal section  */
-.hot-deal{
-    background-color: #fef6f8;
-    padding: 20px;
-    margin: 70px 0;
+.hot-deal {
+  background-color: #fef6f8;
+  padding: 20px;
+  margin: 70px 0;
 }
-.offer{
-    color: #e55473;
+.offer {
+  color: #e55473;
 }
-.hot-deal-container{
-    max-width: 1440px;
-     margin: auto;
-     
-     border-radius: 10px;
-     display: flex;
-     justify-content: space-evenly;
-     padding: 60px;
-     text-align: center;
-     align-items: center;
+.hot-deal-container {
+  max-width: 1440px;
+  margin: auto;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
+  text-align: center;
+  align-items: center;
 }
-.hot-deal-text{
-    width: 594px;
+.hot-deal-text {
+  width: 594px;
 }
-.hot-heading{
-    font-size: 40px;
+.hot-heading {
+  font-size: 40px;
 }
-.hot-text{
-    font-size: 18px;
-    line-height: 30px;
-    margin: 30px 0;
-    color: #919090;
+.hot-text {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px 0;
+  color: #919090;
 }
 
 /* all heading section  */
-.heading-container{
-     max-width: 594px;
-    margin: auto;
-    text-align: center;
-    padding: 40px 0;
+.heading-container {
+  max-width: 594px;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
 }
 
 /* instagram-section */
-.instagram-gallery{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-bottom: 50px;
+.instagram-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
 }
+/* contact-section */
+.backgra {
+  max-width: 1440px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 60px;
+  text-align: center;
 
+  background-image: url("./Flower\ Asset/Rectangle 9.png");
+}
+.input-fel {
+  width: 40%;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 15px;
+  border: none;
+}
+.contact-section{
+    padding: 60px 0;
+}
