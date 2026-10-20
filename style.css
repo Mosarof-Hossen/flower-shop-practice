@@ -190,3 +190,24 @@
 .contact-section{
     padding: 60px 0;
 }
+/* footer-section */
+.footer-section{
+    background-color: black;
+    padding: 30px;
+}
+.footer-heading{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+.footer-p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px ;
+    margin: 18px 0;
+    
+}
+.c {
+    color: #666666;
+    
+}
