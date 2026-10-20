@@ -133,5 +133,37 @@
     margin-top: 10px;
     color: #575656;
 }
+/* hot-deal section  */
+.hot-deal{
+    background-color: #fef6f8;
+    padding: 20px;
+    margin: 70px 0;
+}
+.offer{
+    color: #e55473;
+}
+.hot-deal-container{
+    max-width: 1440px;
+     margin: auto;
+     
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 60px;
+     text-align: center;
+     align-items: center;
+}
+.hot-deal-text{
+    width: 594px;
+}
+.hot-heading{
+    font-size: 40px;
+}
+.hot-text{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0;
+    color: #919090;
+}
 
 
