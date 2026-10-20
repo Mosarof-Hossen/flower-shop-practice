@@ -66,12 +66,13 @@
 .featur-section{
      max-width: 1440px;
      margin: auto;
-     margin-top: 120px;
+     padding: 140px 0;
 }
 .featur-text{
     max-width: 594px;
     margin: auto;
     text-align: center;
+    padding: 40px 0;
 
 }
 .featur-text h1{
@@ -94,7 +95,7 @@
 }
 .feature-image-section{
     width: 100%;
-    height: 100%;
+    height: 538px;
     padding: 20px 20px 0 20px;
      background-color: #f2dee7;
     border-radius: 300px 300px 0 0;
@@ -114,5 +115,23 @@
     color: #272727;
     font-weight: bold;
     margin-top: 30px;
+    text-decoration: underline;
 }
+/* feature section end */
+
+.review-section{
+    max-width: 1440px;
+     margin: auto;
+     background-color: #f4f4f4;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 60px;
+     text-align: center;
+}
+.review-section p{
+    margin-top: 10px;
+    color: #575656;
+}
+
 
