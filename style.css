@@ -1,12 +1,15 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 /* google-font-link */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /* google-font-end */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif
+}
+
+
 
 
 .banner-section{
@@ -50,5 +53,66 @@
     font-weight: bold;
     padding: 20px 43px;
     border-radius: 10px;
+    border: none;
+    transition: 2s;
+}
+.hero-btn:hover{
+    background: #0789f3;
+    color: violet;
+}
+/* hero-section end */
+
+/* feature-section */
+.featur-section{
+     max-width: 1440px;
+     margin: auto;
+     margin-top: 120px;
+}
+.featur-text{
+    max-width: 594px;
+    margin: auto;
+    text-align: center;
+
+}
+.featur-text h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.featur-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #575656;
+    margin: 10px 0;
+}
+.feature-images{
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    gap: 80px;
+    
+}
+.feature-image-section{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 0 20px;
+     background-color: #f2dee7;
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+    
+}
+.image-f{
+   
+}
+.f-p{
+    font-size: 24px;
+    text-align: center;
+    color: #272727;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
